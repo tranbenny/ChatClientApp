@@ -52,7 +52,7 @@ class Login extends Component<object, ILoginState> {
         // const { from }= this.props.location.state || '/';
         const { isLoggedIn } = this.state; 
         if (isLoggedIn === true) {
-            return <Redirect to='localhost:3000' />
+            return <Redirect to='home' />
         }
         return (
             <div className="col-md-6" id="login_box">
